@@ -7,7 +7,7 @@ public class Kadai07 {
 	 * @return 半角数字のみで構成されていたらtrue
 	 */
 	boolean isNumeric(String s) {
-		
-		return false;
+
+		return s.matches("^[0-9]+$" );
 	}
 }
