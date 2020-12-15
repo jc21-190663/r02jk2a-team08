@@ -4,9 +4,17 @@ public class Kadai02 {
 
 	int countString(String s,char c) {
 
+		if(s == null) {
+			System.out.println("NULLがあります。");
+			System.exit(0);
+		}
+		//nullのとき
 
-		s.toUpperCase();
-		System.out.println(s);
+		s = s.toUpperCase();
+
+		//文字列を全て大文字に変換する。
+
+		//System.out.println(s);
 
 		char[] array = s.toCharArray();
 
@@ -24,7 +32,7 @@ public class Kadai02 {
 		}
 		return count;
 		//
-		}
+	}
 
 }
 /**
