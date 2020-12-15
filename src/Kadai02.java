@@ -1,7 +1,12 @@
 
 public class Kadai02 {
 
+
 	int countString(String s,char c) {
+
+
+		s.toUpperCase();
+		System.out.println(s);
 
 		char[] array = s.toCharArray();
 
@@ -19,9 +24,9 @@ public class Kadai02 {
 		}
 		return count;
 		//
-	}
-}
+		}
 
+}
 /**
  * 課題02
  * 文字列の中に、指定されたアルファベットが何文字入っているかを返すメソッド
